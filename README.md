@@ -29,10 +29,10 @@ The pipeline generates synthetic telemetry data, preprocesses sensor measurement
 
 ## Project Structure
 
-* `telemetry_generator.py` – Synthetic telemetry generation
-* `anomaly_detector.py` – Isolation Forest anomaly detection
-* `visualize.py` – Telemetry visualization
-* `run_pipeline.py` – End-to-end analytics pipeline
+* `telemetry_generator.py` – Generates simulated aircraft telemetry
+* `anomaly_detector.py` – Detects anomalies using Isolation Forest
+* `visualize.py` – Visualizes telemetry data and detected anomalies
+* `app.py` – Main application entry point
 * `telemetry_data.csv` – Sample telemetry dataset
 * `requirements.txt` – Project dependencies
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 Run the telemetry analytics pipeline:
 
 ```bash
-python run_pipeline.py
+python app.py
 ```
 
 ## Sample Output
